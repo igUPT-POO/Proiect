@@ -29,7 +29,7 @@ actions.WriteEntity(b);
 
 var state = new State()
 {
-    NameApp = "Test",
+    NameApp = "Testsadfg",
     HelloEntities = [a]
 };
 actions.SaveState(state);
@@ -44,6 +44,14 @@ actions.SaveState(currentState);
 currentState = actions.ReadState();
 display = String.Join(char.MinValue, currentState.HelloEntities.Select(i => $"{i.Prop1}, {i.Prop2}\n"));
 Console.WriteLine(display);
+
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
